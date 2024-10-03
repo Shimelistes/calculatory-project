@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tecno Calculator</title>
+    <link rel="stylesheet" href="./Alpha.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <h2>Tecno Phone Calculator</h2>
+      <form>
+        <div class="display">
+          <input type="text" name="display" placeholder="0" readonly />
+        </div>
+        <div>
+          <input
+            class="delete"
+            type="button"
+            value="CLR"
+            onclick="display.value=''"
+          />
+          <input
+            type="button"
+            value="DEL"
+            onclick="display.value=display.value.slice(0,-1)"
+            class="delete"
+          />
+          <input type="button" value="." onclick="display.value +='.'" />
+          <input
+            class="operations"
+            type="button"
+            value="/"
+            onclick="display.value +='/'"
+          />
+        </div>
+        <div class="second-row">
+          <input type="button" value="7" onclick="display.value +='7'" />
+          <input type="button" value="8" onclick="display.value +='8'" />
+          <input type="button" value="9" onclick="display.value +='9'" />
+          <input
+            class="operations"
+            type="button"
+            value="* "
+            onclick="display.value +='*'"
+          />
+        </div>
+        <div class="third-row">
+          <input type="button" value="4" onclick="display.value +='4'" />
+          <input type="button" value="5" onclick="display.value +='5'" />
+          <input type="button" value="6" onclick="dsiplay.value  +='6'" />
+          <input
+            class="operations"
+            type="button"
+            value="- "
+            onclick="display.value +='-'"
+          />
+        </div>
+        <div class="fourth-row">
+          <input type="button" value="1" onclick="display.value +='1'" />
+          <input type="button" value="2" onclick="display.value +='2'" />
+          <input type="button" value="3" onclick="display.value +='3'" />
+          <input
+            class="operations"
+            type="button"
+            value="+"
+            onclick="display.value +='+'"
+          />
+        </div>
+        <div class="last">
+          <input
+            class="zero"
+            type="button"
+            value="0       "
+            onclick="display.value +='0'"
+          />
+          <input
+            class="equal"
+            type="button"
+            value="&#x3d;"
+            onclick="display.value = eval(display.value)"
+          />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
