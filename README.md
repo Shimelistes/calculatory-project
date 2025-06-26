@@ -20,7 +20,7 @@ A simple, responsive credit calculator web app built using HTML, CSS, and JavaSc
 
 ## 📂 Live Demo
 
-Check it out here 👉 [GitHub Pages Link](https://yourusername.github.io/repository-name/)
+Check it out here 👉 [GitHub Pages Link](https://shimelistes.github.io/calculatory-project/)
 
 ## 🧑‍💻 Author
 
