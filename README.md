@@ -1,4 +1,4 @@
-# 💳 Credit Calculator
+# 💳 Alph  Calculator
 
 A simple, responsive credit calculator web app built using HTML, CSS, and JavaScript. Designed to help users calculate their monthly payments based on loan amount, interest rate, and term.
 
